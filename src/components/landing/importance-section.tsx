@@ -21,7 +21,7 @@ export default function ImportanceSection() {
               <div>
                 <h3 className="text-xl font-headline font-bold mb-2">Leituras Sólidas</h3>
                 <p className="text-lg text-muted-foreground">
-                🛡️ Esta plataforma existe para guiar cristãos em leituras piedosas e sólidas, para que não sejam levados por qualquer vento de doutrina.
+                🛡️ Esta plataforma existe para ajudar cristãos a terem leituras piedosas e sólidas, <strong>para que não sejam levados por qualquer vento de doutrina.</strong>
                 </p>
               </div>
             </div>
@@ -35,7 +35,7 @@ export default function ImportanceSection() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4 text-lg text-muted-foreground">
-              <p>• "Por onde começar minha leitura cristã?"</p>
+              <p>• "Por onde melhorar minha leitura cristã?"</p>
               <p>• "Quais autores realmente glorificam a Deus?"</p>
               <p>• "Como posso aprofundar meu conhecimento teológico de forma segura?"</p>
             </CardContent>

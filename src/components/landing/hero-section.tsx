@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section id="hero" className="relative text-center py-24 md:py-40 flex items-center justify-center min-h-[70dvh] md:min-h-[80dvh]">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://i.pinimg.com/736x/0f/44/64/0f44645ad33411cd810fcfdc8721feb4.jpg"
           alt="Céu com nuvens"
           data-ai-hint="sky clouds"
           layout="fill"
@@ -20,7 +20,7 @@ export default function HeroSection() {
           Missão Inteligência Cristã
         </h1>
         <p className="max-w-3xl mx-auto text-lg md:text-2xl text-muted-foreground mb-8 animate-fade-in-up">
-          Roadmaps de leitura para cristãos que querem crescer em fé e sabedoria.
+          Roadmaps(knowledge graph ui) de leitura para cristãos que querem crescer em fé e sabedoria.
         </p>
         <Button size="lg" className="text-lg px-8 py-6 shadow-lg">
           Comece sua jornada

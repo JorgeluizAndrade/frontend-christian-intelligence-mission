@@ -30,7 +30,7 @@ const BranchLine = () => (
 
 const RoadmapBranch = ({ title, items }: { title: string, items: { icon: React.ElementType, title: string }[] }) => (
   <div className="flex flex-col items-center">
-    <div className="bg-accent/20 text-accent-foreground font-semibold py-2 px-4 rounded-full border border-accent">
+    <div className="bg-accent/20 text-accent-foreground text-white sfont-semibold py-2 px-4 rounded-full border border-accent">
       {title}
     </div>
     <div className="h-8 w-px bg-border" />
@@ -38,7 +38,7 @@ const RoadmapBranch = ({ title, items }: { title: string, items: { icon: React.E
       {items.map((item, index) => (
         <div key={index} className="flex items-center gap-2 text-sm text-muted-foreground">
           {React.createElement(item.icon, { className: "w-4 h-4 text-accent" })}
-          <span>{item.title}</span>
+          <span className='font-semibold text-white'>{item.title}</span>
         </div>
       ))}
     </div>
@@ -78,8 +78,8 @@ export default function HowItWorksSection() {
              <div className="absolute top-1/2 left-0 w-full h-px bg-border -translate-y-1/2" />
              <div className="relative grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8 z-10">
                 <RoadmapBranch title="Vida Prática" items={[{icon: Book, title: "Livros"}, {icon: MicVocal, title: "Sermões"}]} />
-                <RoadmapBranch title="Teologia" items={[{icon: Book, title: "Livros"}, {icon: Clapperboard, title: "Vídeos"}]} />
-                <RoadmapBranch title="Liderança" items={[{icon: Book, title: "Livros"}, {icon: MicVocal, title: "Sermões"}]} />
+                <RoadmapBranch title="Teologia" items={[{icon: Book, title: "Pregações"}, {icon: Clapperboard, title: "Vídeos"}]} />
+                <RoadmapBranch title="Piedade" items={[{icon: Book, title: "Livros"}, {icon: MicVocal, title: "Podcasts"}]} />
              </div>
           </div>
         </div>

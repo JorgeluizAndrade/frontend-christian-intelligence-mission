@@ -1,4 +1,4 @@
-import { BookHeart, Instagram, Mail, Info } from 'lucide-react';
+import { Mail, Info, Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -13,7 +13,7 @@ export default function Footer() {
               <span>Contato</span>
             </a>
             <a href="#" className="hover:text-primary transition-colors flex items-center gap-2">
-              <Instagram className="w-5 h-5" />
+              <Heart  className="w-5 h-5" />
               <span>Instagram</span>
             </a>
             <a href="#" className="hover:text-primary transition-colors flex items-center gap-2">
