@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ShieldHalf } from "lucide-react";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -13,7 +14,11 @@ export default function Header() {
           <Button>Comece sua jornada</Button>
         </nav>
          <nav>
-          <Button>Visite nosso blog</Button>
+          <Link  href={"/blog"} className="flex items-center gap-2">  
+            <Button className="bg-primary text-white">
+              Visite nosso blog!
+            </Button>
+          </Link >
         </nav>
       </div>
     </header>
