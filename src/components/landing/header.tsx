@@ -11,7 +11,11 @@ export default function Header() {
           <span className="font-headline text-2xl font-bold">Cristo Saber</span>
         </a>
         <nav>
-          <Button>Comece sua jornada</Button>
+          <Button>
+          <Link href={"/roadmap"}>
+            Comece sua jornada
+            </Link>
+            </Button>
         </nav>
          <nav>
           <Link  href={"/blog"} className="flex items-center gap-2">  

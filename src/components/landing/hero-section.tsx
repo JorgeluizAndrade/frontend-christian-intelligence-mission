@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -23,7 +24,9 @@ export default function HeroSection() {
           Roadmaps(knowledge graph ui) de leitura para cristãos que querem crescer em fé e sabedoria.
         </p>
         <Button size="lg" className="text-lg px-8 py-6 shadow-lg">
+           <Link href={"/roadmap"}>
           Comece sua jornada
+          </Link>
         </Button>
         <p className="mt-12 text-base md:text-lg italic text-muted-foreground">
           “Não vos conformeis com este mundo, mas transformai-vos pela renovação da vossa mente.” – Romanos 12:2

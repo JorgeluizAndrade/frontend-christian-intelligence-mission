@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function CtaSection() {
   return (
@@ -11,7 +12,9 @@ export default function CtaSection() {
           Comece por um tema e mergulhe em uma trilha de livros e contéudos que moldam mente e coração — tudo para a glória de Deus.
         </p>
         <Button size="lg" className="text-lg px-8 py-6">
+          <Link href={"/roadmap"}>
           Começar agora
+          </Link>
         </Button>
       </div>
     </section>
